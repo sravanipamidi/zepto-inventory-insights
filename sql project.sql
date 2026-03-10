@@ -13,19 +13,6 @@ outOfStock BOOLEAN,
 quantity INTEGER
 );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 __data exploration
 
 __count of rows
@@ -143,3 +130,4 @@ sum(weightInGms * availabilityQuantity) as total_weight
 from zepto
 group by category
 order by total_weight;
+
